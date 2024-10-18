@@ -41,14 +41,14 @@ do{
             break;
 
         case 4:
-            //almacen.mostrarLibros();
+            almacen.mostrarLibros();
             break;
         case 5:
         System.out.println("Salir del programa y eliminar información");
     } 
 
 
-    }while (n !=5);
+    }while((n>=1)&&(n<=4));
 }
 
 private static void mostrarMenu(){
